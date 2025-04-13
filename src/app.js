@@ -2,7 +2,7 @@ require("dotenv").config();
 const fs = require("fs");
 const { CloudClient, FileTokenStore } = require("cloud189-sdk");
 const recording = require("log4js/lib/appenders/recording");
-const accounts = require("../accounts");
+const accounts = require("../accounts"); 
 const families = require("../families");
 const { mask, delay } = require("./utils");
 const push = require("./push");
